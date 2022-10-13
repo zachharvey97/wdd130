@@ -3,7 +3,7 @@
 
 header {font-family: Playfair, Helvetica, sans-serif;}
 body{font-size: 22px;
-  font-family: Playfair, Libre Baskerville, Helvetica, sans-serif;
+  font-family: "Playfair", "Libre Baskerville", Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -71,7 +71,7 @@ header {
 }
 h2 {
   color: #f79256;
-  font-family: "Berkshire Swash";
+  font-family: "Berkshire Swash", "Dancing Scipt";
   margin: 0;
 }
 p {
@@ -84,7 +84,7 @@ footer {
 }
 .home-title {
   color: #1d4e89;
-  font-family: "Berkshire Swash";
+  font-family: "Berkshire Swash", "Dancing Script";
   font-size: 2em;
   margin-top: 10px;
 }
