@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script&family=Lato:ital,wght@1,300&family=Libre+Baskerville&family=Playfair+Display&family=Satisfy&display=swap');
+
+
+header {font-family: Playfair, Helvetica, sans-serif;}
+body{font-size: 22px;
+  font-family: Playfair, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 #content {
   max-width: 1600px;
 }
 #content {
   margin: 0 auto;
 }
+#logo_link {
+  padding-top: 5px;
+}
 .navbar {
   text-align: center;
+  /* font-family: Playfair, Helvetica, sans-serif; */
   color: #1d4e89;
   text-decoration: none;
+  padding: 35px;
 }
 .navbar:hover {
   background-color: #f6b28b;
@@ -15,12 +30,15 @@
 }
 #hero-msg {
   text-align: center;
+  /* font-family: Playfair, Helvetica, sans-serif; */
 }
 #hero-box {
   text-align: center;
+  font-family: Playfair, Helvetica, sans-serif;
 }
 .home-grid {
   text-align: center;
+  /* font-family: Playfair, Helvetica, sans-serif; */
 }
 #background {
   height: 725px;
@@ -36,6 +54,11 @@ header {
   background-color: #00b2ca;
   color: black;
   text-decoration: none;
+  /* font-family: Playfair, Helvetica, sans-serif; */
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover {
   background-color: #ffff;
@@ -43,29 +66,47 @@ header {
 }
 .msg {
   background-color: #1d4e89;
+  line-height: 1.5em;
+  padding: 35px;
 }
 h2 {
   color: #f79256;
+  font-family: "Berkshire Swash";
+  margin: 0;
 }
 p {
   color: white;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 footer {
   background-color: #f79256;
 }
 .home-title {
   color: #1d4e89;
+  font-family: "Berkshire Swash";
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color: rgb(27, 26, 26);
 }
+footer{
+  padding: 25px 50px;
+  margin-top: 200px;
+}
 footer p {
   color: black;
   font-size: 1.23em;
+  /* padding: 25px 50px; */
+  /* margin-top: 200px; */
+  /* font-family: Playfair, Helvetica, sans-serif; */
 }
 footer a {
   color: #1d4e89;
   text-decoration: none;
+  padding-top: 15px;
+  /* font-family: Playfair, Helvetica, sans-serif; */
 }
 footer a:hover {
   text-decoration: underline;
@@ -75,4 +116,20 @@ footer a:hover {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img{
+  border: 10px solid black;
+}
+main section img {
+  box-sizing: border-box;
 }
