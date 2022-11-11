@@ -172,7 +172,110 @@ main section img {
 .card-img, .mountains {
   width: 100%;
 }
-
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* RIVERS PAGE */
+.river-grid{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+  row-gap: 2em;
+}
+#river-hero-img{
+  width: 100%;
+  height: auto;
+}
+.river-caption{
+  color: white;
+  font-family: "Berkshire Swash", "Dancing Script";
+  font-size: 2em;
+  margin-top: 10px;
+}
+.page-title{
+  grid-row: 1/2;
+  grid-column: 2/5;
+  text-align: center;
+  margin-top: 15px;  
+}
+#title-bg {
+  height: 75px;
+  background-color: #1d4e89;
+  grid-column: 2/5;
+  grid-row: 1/2;
+  z-index: -1;
+}
+#r1-bg {
+  height: 100%;
+  width: 80%;
+  background-color: white;
+  grid-column: 1/6;
+  grid-row: 2/3;
+  z-index: -1;
+  margin-left: 10%;
+}
+#r2-bg {
+  height: 100%;
+  width: 80%;
+  background-color: white;
+  grid-column: 1/6;
+  grid-row: 3/4;
+  z-index: -1;
+  margin-left: 10%;
+}
+#r3-bg {
+  height: 100%;
+  width: 80%;
+  background-color: white;
+  grid-column: 1/6;
+  grid-row: 4/5;
+  z-index: -1;
+  margin-left: 10%;
+}
+.river-img{
+  width: 800px;
+  height: auto;
+}
+.river-1{
+  grid-row: 2/3;
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  justify-items: center;
+  column-gap: 1.5%
+}
+.river-2{
+  grid-row: 3/4;
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  justify-items: center;
+  column-gap: 1.5%
+}
+.river-3{
+  grid-row: 4/5;
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  justify-items: center;
+  column-gap: 1.5%
+}
+.river-title{
+  grid-row: 1/2;
+  grid-column: 1/5;
+}
+.river-img{
+  grid-row: 2/5;
+  grid-column: 3/4;
+  width: 750px;
+  height: auto;
+  align-self: center;
+}
+.river-text{
+  grid-row: 2/5;
+  grid-column: 2/3;
+  align-self: center;
+  color: black;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
 /* This should always be at the bottom of the CSS */
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
