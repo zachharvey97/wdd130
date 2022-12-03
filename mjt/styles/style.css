@@ -223,3 +223,25 @@ body{font-size: 22px;
     grid-column: 3/4;
     grid-row: 2/3;
   }
+
+  /* ---------------------------CITIES------------------------------------------------- */
+
+  .cityimg{
+    display: block;
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3{
+    color: #c76982;
+    text-align: center;
+  }
+
+  .highlights{
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+  }
+ 
